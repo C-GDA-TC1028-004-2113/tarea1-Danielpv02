@@ -1,6 +1,8 @@
 def main():
     #escribe tu código abajo de esta línea
-    pass
+    x = int(input("Dame el año de nacimiento: "))
+    y = int(input("Dame el año actual: "))
+    print("Los lustros que has vivido son: " + str((y-x)/5))
 
 
 
